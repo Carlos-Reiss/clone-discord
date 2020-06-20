@@ -5,7 +5,7 @@ import { Container, Separator } from './styles';
 const ServerList: React.FC = () => {
   return (
     <Container>
-      <ServerButton />
+      <ServerButton selected />
 
       <Separator />
 
@@ -13,6 +13,12 @@ const ServerList: React.FC = () => {
       <ServerButton />
       <ServerButton hasNotifications />
       <ServerButton mentions={3}/>
+      <ServerButton />
+      <ServerButton />
+      <ServerButton />
+      <ServerButton />
+      <ServerButton />
+      <ServerButton />
       <ServerButton />
       <ServerButton />
       <ServerButton />
